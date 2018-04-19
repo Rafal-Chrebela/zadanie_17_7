@@ -1,0 +1,13 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Please log in
+    link(rel='stylesheet', type='text/css', href='style.css')
+    style
+        include ./style.css
+  body
+    
+    .container
+      form(action='http://localhost:3000/auth/google', method='GET')
+        h5 To log in to your account
+        input.btn(type='submit', value='Click here')

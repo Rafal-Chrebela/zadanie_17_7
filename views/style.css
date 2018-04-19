@@ -1,0 +1,29 @@
+h5 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #3266d4;
+}
+
+.container {
+  border: 2px solid #3266d4;
+  text-align: center;
+  width: 400px;
+  padding: 10px 20px;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background: #3266d4;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #3266d4;
+  border: 3px solid #3266d4;
+  padding: 7px;
+}
